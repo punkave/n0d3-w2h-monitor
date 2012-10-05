@@ -1,8 +1,10 @@
 {
   "name": "n0d3-w2h-monitor",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "An n0d3 plugin to monitor way to health",
-  "keywords": ["n0d3"],
+  "keywords": [
+    "n0d3"
+  ],
   "homepage": "https://github.com/punkave/n0d3-w2h-monitor",
   "author": "P'unk Ave <team@punkave.com>",
   "contributors": [
@@ -15,6 +17,6 @@
   },
   "main": "monitor.js",
   "dependencies": {
-    "request": "2.11.4",
+    "request": "2.11.4"
   }
 }
