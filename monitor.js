@@ -15,7 +15,7 @@ module.exports = function monitor (room, log) {
           return;
         }
         if (sites[site.slug] != site.ok) {
-          room.speak('everyone: ' + timestamp + (site.ok ? ' UP   ' : ' DOWN ') + site.url);
+          room.speak('everyone: ' + timestamp + (site.ok ? ' UP ' : ' DOWN ') + site.url);
           sites[site.slug] = site.ok;
         }
       })
